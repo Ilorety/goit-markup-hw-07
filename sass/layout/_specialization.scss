@@ -1,0 +1,48 @@
+.specialization{
+    display: flex;
+    padding-bottom: 94px;
+}
+.specialization__title,
+.command-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.specialization__list{
+    display: flex;
+    margin-top: 50px;
+}
+.specialization__items{
+    position: relative;
+    display: block;
+    margin-right: 30px;
+    width: 370px;
+    
+}
+.specialization__items:last-child{
+    margin-right: 0px auto;
+}
+.specialization__img{
+    display: block;  
+}
+.specialization__text{
+    width: 100%;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    background-color: rgba(47, 48, 58, 0.801);
+    color: #FFFFFF;
+
+
+}

@@ -1,0 +1,47 @@
+.footer{
+    background-color: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    
+}
+.footer__content{
+    display: flex;
+}
+.footer__list{
+    margin-top:20px;
+}
+.footer__box{
+width: 231px;
+}    
+.footer__link {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.address__nav{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color:#FFFFFF
+
+}
+.address__link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: #a6a6a6;
+}
+.address__item{
+    margin-bottom: 9px;
+}
