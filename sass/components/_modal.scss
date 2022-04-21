@@ -44,28 +44,22 @@
     right: 10px;
     margin-left: 164px;
     cursor: pointer;
-    
-   
-}
-
-.modal-button__svg{
     &:hover,
-    &:focus{
+    &:focus {
         fill: #2196F3;
-    
     }
 }
 
-.modal-title{
-  font-weight: 700;
-font-size: 20px;
-line-height: 1.15px;
-text-align: center;
-letter-spacing: 0.03em;
 
-color: #212121;
+.modal-title{
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
     margin-bottom: 12px;
 }
+
 .modal-field{
     margin-bottom: 10px;
 }
@@ -89,12 +83,7 @@ color: #212121;
     padding-left: 43px;
     cursor: pointer;
     outline: none;
-    &:focus{
-         border-color: #2196F3;
-    }
-    &:hover{
-         border-color: #2196F3;
-    }
+   
 }
 
 .form-text:focus + .modal-icon,
@@ -177,8 +166,8 @@ color: #212121;
     background-color: #2196F3;
     border: 0px;
     fill: #FFFFFF;
- }
 }
+ }
 .check-text{
     font-size: 14px;
     display: flex;

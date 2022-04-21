@@ -26,11 +26,11 @@ header{
     margin-right:  50px;
     margin-left: auto;
     height: 16px;
-    
+    &:last-child {
+        margin-right: 0px;
+    }
 }
-.header__item:last-child{
-    margin-right: 0px;
-}
+
 .header-contacts{
     display: flex;
     margin-left: auto;
@@ -46,12 +46,11 @@ header{
     align-items: center;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 250ms;
+    &:hover,
     &:focus{
          color: #2196F3
     }
-    &:hover{
-         color: #2196F3;
-    }
+   
 }
 
 
@@ -65,10 +64,8 @@ header{
     position: relative;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 250ms;
+    &:hover,
     &:focus{
-        color: #2196F3;
-    }
-    &:hover{
         color: #2196F3;
     }
 }
